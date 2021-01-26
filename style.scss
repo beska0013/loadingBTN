@@ -40,6 +40,11 @@ body{
         right:10%;
         border-radius: 50%;
         transition: box-shadow  .3s ease-in-out;
+        @include d-center;
+        i{
+          font-size: 48px;
+          color: #f1f1f1;
+        }
       }
       .pushbtnactive{
         transition: box-shadow .3s ease-in-out;
