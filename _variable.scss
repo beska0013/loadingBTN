@@ -3,3 +3,15 @@
   justify-content: center;
   align-items: center;
 }
+.loading_animation{
+  animation: roll .3s linear infinite;
+}
+@keyframes roll  {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
